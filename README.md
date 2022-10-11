@@ -86,36 +86,21 @@ Simple desktop application for a ticket store, created for the "Systems for Desi
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align="center">
-  <img src="images/chooseWarehouse.png" alt="Choose Warehouse Screenshot" width="25%">
-  <img height="350" hspace="20"/>
-  <img src="images/productsList.png" alt="View Products List Screenshot" width="25%">
-  <img height="350" hspace="20"/>
-  <img src="images/editProduct.png" alt="Edit Product Screenshot" width="25%">
-</p>
+The user creates an account if he doesn't have one and then logs into it. There, he can view a list of all of the shows, he can filter them by date and he can buy tickets for one of those filtered shows.
 
-The user chooses a warehouse and for that warehouse's products, he can view a list of them, add new products and update or delete existing products. 
-
-The project contains two versions: one made with flutter, which contains an in-memory repository, and one made with Jetpack Compose, which requires a server.
+The project contains two versions for the server: an RPC server and one made with Protobuf. It also contains a web server which uses the same database, and a simple client made with React for CRUD operations on shows.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
-#### Jetpack Compose version
-* [![Android][Android.com]][Android-url]
-* [![Android Studio][AndroidStudio.com]][AndroidStudio-url]
-* [![Kotlin][Kotlin.org]][Kotlin-url]
+* [![SQLite][SQLite.org]][SQLite-url]
+* [![IntelliJ IDEA][Intellij.com]][Intellij-url]
+* [![Java][Java.com]][Java-url]
+* [![Gradle][Gradle.org]][Gradle-url]
 
-#### Flutter version
-* [![Flutter][Flutter.dev]][Flutter-url]
-* [![Android Studio][AndroidStudio.com]][AndroidStudio-url]
-* [![Dart][Dart.dev]][Dart-url]
-
-#### Server
-* [![NodeJS][Node.js]][Node-url]
-* [![WebStorm][WebStorm.com]][WebStorm-url]
+#### Web CRUD operations application
+* [![React][React.org]][React-url]
+* [![Spring][Spring.io]][Spring-url]
 * [![JavaScript][JavaScript.com]][JavaScript-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -237,19 +222,17 @@ Project Link: [https://github.com/claudiamunteanu/product-management](https://gi
 [license-url]: https://github.com/claudiamunteanu/shows-tickets-store-java/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/claudiamunteanu
-[Android.com]: https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white
-[Android-url]: https://www.android.com/
-[Flutter.dev]: https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white
-[Flutter-url]: https://flutter.dev/
-[Node.js]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
-[Node-url]: https://nodejs.org/en/
-[AndroidStudio.com]: https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white
-[AndroidStudio-url]: https://developer.android.com/studio
-[WebStorm.com]: https://img.shields.io/badge/webstorm-143?style=for-the-badge&logo=webstorm&logoColor=white&color=black
-[WebStorm-url]: https://www.jetbrains.com/webstorm/
-[Dart.dev]: https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white
-[Dart-url]: https://dart.dev/
-[Kotlin.org]: https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white
-[Kotlin-url]: https://kotlinlang.org/
 [JavaScript.com]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
 [JavaScript-url]: https://www.javascript.com/
+[SQLite.org]: https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white
+[SQLite-url]: https://www.sqlite.org/index.html
+[React.org]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[React-url]: https://reactjs.org/
+[Spring.io]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
+[Spring-url]: https://spring.io/
+[Intellij.com]: https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white
+[Intellij-url]: https://www.jetbrains.com/idea/
+[Java.com]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white
+[Java-url]: https://www.java.com/en/
+[Gradle.org]: https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white
+[Gradle-url]: https://gradle.org/
