@@ -88,7 +88,7 @@ Simple desktop application for a ticket store, created for the "Systems for Desi
 
 The user creates an account if he doesn't have one and then logs into it. There, he can view a list of all of the shows, he can filter them by date and he can buy tickets for one of those filtered shows.
 
-The project contains two versions for the server: an RPC server and one made with Protobuf. It also contains a web server which uses the same database, and a simple client made with React for CRUD operations on shows.
+The project contains two versions for the server: an RPC server and one made with Protobuff. It also contains a web server which uses the same database, and a simple client made with React for CRUD operations on shows.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,6 +102,7 @@ The project contains two versions for the server: an RPC server and one made wit
 * [![React][React.org]][React-url]
 * [![Spring][Spring.io]][Spring-url]
 * [![JavaScript][JavaScript.com]][JavaScript-url]
+* [![NPM][NPM.com]][NPM-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,34 +114,34 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-#### Jetpack Compose version
-
-* [Android Studio][AndroidStudio-url] (I'm using Android Studio Artic Fox)
-* [Web Storm][WebStorm-url]
-* [Optional] An Android phone with a minimum API level of 24 (Android 7.0)
-
-#### Flutter version
-* [Android Studio][AndroidStudio-url]
-* [Optional] An Android phone with a minimum API level of 16 (Android 4.1)
+* [IntelliJ][IntelliJ-url]
+* [SQLite][SQLite-url]
+* [React][React-url]
+* [NPM][NPM-url]
+* [SQLite Studio](https://sqlitestudio.pl/)
 
 ### Setup and build
 
 * Clone the repo
    ```sh
-   git clone https://github.com/claudiamunteanu/product-management.git
+   git clone https://github.com/claudiamunteanu/shows-tickets-store-java.git
    ```
-* If you wish, modify the `warehouses.json` snd `products.json` files inside the `server` project with the warehouses and products of your choice
+   
 ### Running
 
-To run the flutter version of the project on your Android phone or emulator:
-* Deploy and run the `gestionare_produse` project inside the `flutter` folder
+To run the desktop version:
+1. Deploy and run the `AppServer` module using either the `StartProtobuffServer` class or the `StartRpcServer` class
+2. Deploy and run the `AppClient` module. You must use the same protocol as the server: if you ran the protobuff server, use the `StartProtobuffClient` class. If you ran the RPC server, use the `StartRpcClient` class.
 
-To run the Jetpack Compose version of the project on your Android phone or emulator:
-1. Deploy and run following command in the terminal of the `server` project:
-```
- npm start
-```
-2. Deploy and run the `GestionareProduse` project inside the `android` folder
+To run the web version:
+1. Deploy and run the `RestServices` module using the `StartRestServices` class.
+   * If you wish, you can test that the server is running correctly by running the `StartRestClient` class.
+2. In the terminal, go to inside the `app-rest-client` folder. Then, deploy and run following command:
+   ```
+    npm start
+   ```
+
+If you wish, you can modify the database at any time using SQLite Studio, where you can manage the shows (which you can also manage using the web application), the users or the tickets.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,7 +192,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Munteanu Claudia-Maria - Linkedin: [claudiamunteanu][linkedin-url]
 
-Project Link: [https://github.com/claudiamunteanu/product-management](https://github.com/claudiamunteanu/product-management)
+Project Link: [https://github.com/claudiamunteanu/shows-tickets-store-java](https://github.com/claudiamunteanu/shows-tickets-store-java)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -236,3 +237,5 @@ Project Link: [https://github.com/claudiamunteanu/product-management](https://gi
 [Java-url]: https://www.java.com/en/
 [Gradle.org]: https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white
 [Gradle-url]: https://gradle.org/
+[NPM.com]: https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white
+[NPM-url]: https://www.npmjs.com/
