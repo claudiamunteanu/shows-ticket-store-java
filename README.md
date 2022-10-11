@@ -35,8 +35,8 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 -->
-# Product Management
-Simple CRUD mobile application for the management of a store's products, created for the "Mobile Application Programming" course at my university in my third year.
+# Ticket Store
+Simple desktop application for a ticket store, created for the "Systems for Design and Implementation" course at my university from my second year.
   <!--
   <p align="center">
     Simple CRUD mobile application for the management of a store's products, created for the "Mobile Application Programming" course at my university.
