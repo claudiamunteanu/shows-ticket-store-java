@@ -1,0 +1,10 @@
+start/StartRestClient.java
+ start.StartRestClient
+start/StartRestServices.java
+ start.StartRestServices
+rest/client/ShowsClient.java
+ rest.client.ShowsClient
+app/services/rest/AppShowController.java
+ app.services.rest.AppShowController
+app/services/rest/ServiceException.java
+ app.services.rest.ServiceException

@@ -1,0 +1,9 @@
+rootProject.name = 'Pb2-Java'
+include 'AppModel'
+include 'AppPersistence'
+include 'AppServer'
+include 'AppClient'
+include 'AppNetworking'
+include 'AppServices'
+include 'RestServices'
+

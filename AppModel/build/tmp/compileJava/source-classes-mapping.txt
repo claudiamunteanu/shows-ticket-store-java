@@ -1,0 +1,8 @@
+app/model/Entity.java
+ app.model.Entity
+app/model/Ticket.java
+ app.model.Ticket
+app/model/User.java
+ app.model.User
+app/model/Show.java
+ app.model.Show

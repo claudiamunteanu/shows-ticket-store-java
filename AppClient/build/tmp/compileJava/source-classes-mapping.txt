@@ -1,0 +1,17 @@
+app/client/gui/LoginController.java
+ app.client.gui.LoginController
+app/client/StartProtobuffClient.java
+ app.client.StartProtobuffClient
+app/client/gui/WelcomeController.java
+ app.client.gui.WelcomeController
+app/client/gui/MainWindowController.java
+ app.client.gui.MainWindowController
+ app.client.gui.MainWindowController$1
+app/client/StartProtobuffClientFX.java
+ app.client.StartProtobuffClientFX
+app/client/gui/NewUserController.java
+ app.client.gui.NewUserController
+app/client/StartRpcClient.java
+ app.client.StartRpcClient
+app/client/StartRpcClientFX.java
+ app.client.StartRpcClientFX

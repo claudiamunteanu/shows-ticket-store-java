@@ -1,0 +1,55 @@
+syntax = "proto3";
+package app.protocol;
+
+option java_package = "app.network.protobuffprotocol";
+option java_outer_classname = "AppProtobufs";
+
+message User{
+  string id = 1;
+  string username = 2;
+  string password = 3;
+  string confirmedPassword = 4;
+}
+
+message Ticket{
+  string id = 1;
+  string showId = 2;
+  string buyerName = 3;
+  string noOfSeats = 4;
+}
+
+message Show{
+  string id = 1;
+  string artistName = 2;
+  string dateTime = 3;
+  string place = 4;
+  string availableSeats = 5;
+  string soldSeats = 6;
+}
+
+message AppRequest {
+  enum Type {Unkown = 0; Login = 1; Logout = 2; GetAllShows = 3; GetFilteredShows = 4 ; AddUser = 5; BuyTicket = 6;}
+
+  // Identifies which request is filled in.
+  Type type = 1;
+
+  // One of the following will be filled in, depending on the type.
+  oneof payload{
+    User user = 2;
+    Ticket ticket = 3;
+    string date = 4;
+  }
+}
+
+message AppResponse{
+  enum Type {Unknown = 0; Ok = 1; Error = 2; UserLoggedIn = 3; UserLoggedOut = 4; GetAllShows = 5; GetFilteredShows = 6; NewUser = 7; TicketBought = 8;}
+
+  // Identifies which request is filled in.
+  Type type = 1;
+
+  // One of the following will be filled in, depending on the type.
+  string error = 2;
+  repeated Show shows = 3;
+  User user = 4 ;
+  Ticket ticket = 5;
+}
