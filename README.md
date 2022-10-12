@@ -86,6 +86,9 @@ Simple client-server desktop application for a ticket store. This is the Java ve
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<img src="images/desktop.jpg" alt="Desktop Application" width="70%"/>
+<img src="images/web.jpg" alt="Web Client" width="80%"/>
+
 The user creates an account if he doesn't have one and then logs into it. There, he can view a list of all of the shows, he can filter them by date and he can buy tickets for one of those filtered shows.
 
 The project contains two versions for the server: an RPC server and one made with Protobuff. It also contains a web server which uses the same database, and a simple client made with React for CRUD operations on shows.
