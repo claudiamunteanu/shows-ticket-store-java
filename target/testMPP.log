@@ -9373,3 +9373,26 @@
 12 Oct 2022 13:06:19,802 TRACE app.persistence.JdbcUtils 48 getConnection - Enter
 12 Oct 2022 13:06:19,802 TRACE app.persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.SQLiteConnection@2e898a35)
 12 Oct 2022 13:06:19,803 TRACE app.persistence.ShowsDBRepository 98 findAll - Exit
+12 Oct 2022 13:16:22,459 INFO  app.persistence.ShowsDBRepository 31 <init> - Initializing ShowsDBRepository with properties: {app.server.port=55556, app.jdbc.url=jdbc:sqlite:FestivalDeMuzica.db} 
+12 Oct 2022 13:16:22,465 INFO  app.persistence.TicketsDBRepository 27 <init> - Initializing TicketsDBRepository with properties: {app.server.port=55556, app.jdbc.url=jdbc:sqlite:FestivalDeMuzica.db} 
+12 Oct 2022 13:16:22,466 INFO  app.persistence.UsersDBRepository 24 <init> - Initializing UsersDBRepository with properties: {app.server.port=55556, app.jdbc.url=jdbc:sqlite:FestivalDeMuzica.db} 
+12 Oct 2022 13:17:15,319 TRACE app.persistence.UsersDBRepository 116 getUser - Enter
+12 Oct 2022 13:17:15,320 TRACE app.persistence.JdbcUtils 48 getConnection - Enter
+12 Oct 2022 13:17:15,320 TRACE app.persistence.JdbcUtils 25 getNewConnection - Enter
+12 Oct 2022 13:17:15,320 INFO  app.persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:FestivalDeMuzica.db
+12 Oct 2022 13:17:15,321 INFO  app.persistence.JdbcUtils 31 getNewConnection - user: null
+12 Oct 2022 13:17:15,321 INFO  app.persistence.JdbcUtils 32 getNewConnection - pass: null
+12 Oct 2022 13:17:15,527 TRACE app.persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@414dbc84)
+12 Oct 2022 13:17:15,532 TRACE app.persistence.UsersDBRepository 134 getUser - Exit
+12 Oct 2022 13:17:16,555 TRACE app.persistence.ShowsDBRepository 73 findAll - Enter
+12 Oct 2022 13:17:16,556 TRACE app.persistence.JdbcUtils 48 getConnection - Enter
+12 Oct 2022 13:17:16,556 TRACE app.persistence.JdbcUtils 25 getNewConnection - Enter
+12 Oct 2022 13:17:16,556 INFO  app.persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:FestivalDeMuzica.db
+12 Oct 2022 13:17:16,557 INFO  app.persistence.JdbcUtils 31 getNewConnection - user: null
+12 Oct 2022 13:17:16,557 INFO  app.persistence.JdbcUtils 32 getNewConnection - pass: null
+12 Oct 2022 13:17:16,559 TRACE app.persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6151aa95)
+12 Oct 2022 13:17:16,569 TRACE app.persistence.ShowsDBRepository 98 findAll - Exit
+12 Oct 2022 13:17:27,848 TRACE app.persistence.ShowsDBRepository 136 filterByDate - Enter
+12 Oct 2022 13:17:27,848 TRACE app.persistence.JdbcUtils 48 getConnection - Enter
+12 Oct 2022 13:17:27,849 TRACE app.persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6151aa95)
+12 Oct 2022 13:17:27,850 TRACE app.persistence.ShowsDBRepository 161 filterByDate - Exit
