@@ -211,16 +211,16 @@ Project Link: [https://github.com/claudiamunteanu/shows-tickets-store-java](http
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/claudiamunteanu/shows-tickets-store-java.svg?style=for-the-badge
-[contributors-url]: https://github.com/claudiamunteanu/shows-tickets-store-javat/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/claudiamunteanu/shows-tickets-store-java.svg?style=for-the-badge
-[forks-url]: https://github.com/claudiamunteanu/shows-tickets-store-java/network/members
-[stars-shield]: https://img.shields.io/github/stars/claudiamunteanu/shows-tickets-store-java.svg?style=for-the-badge
-[stars-url]: https://github.com/claudiamunteanu/shows-tickets-store-java/stargazers
-[issues-shield]: https://img.shields.io/github/issues/claudiamunteanu/shows-tickets-store-java.svg?style=for-the-badge
-[issues-url]: https://github.com/claudiamunteanu/shows-tickets-store-java/issues
-[license-shield]: https://img.shields.io/github/license/claudiamunteanu/shows-tickets-store-java.svg?style=for-the-badge
-[license-url]: https://github.com/claudiamunteanu/shows-tickets-store-java/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/claudiamunteanu/shows-ticket-store-java.svg?style=for-the-badge
+[contributors-url]: https://github.com/claudiamunteanu/shows-ticket-store-javat/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/claudiamunteanu/shows-ticket-store-java.svg?style=for-the-badge
+[forks-url]: https://github.com/claudiamunteanu/shows-ticket-store-java/network/members
+[stars-shield]: https://img.shields.io/github/stars/claudiamunteanu/shows-ticket-store-java.svg?style=for-the-badge
+[stars-url]: https://github.com/claudiamunteanu/shows-ticket-store-java/stargazers
+[issues-shield]: https://img.shields.io/github/issues/claudiamunteanu/shows-ticket-store-java.svg?style=for-the-badge
+[issues-url]: https://github.com/claudiamunteanu/shows-ticket-store-java/issues
+[license-shield]: https://img.shields.io/github/license/claudiamunteanu/shows-ticket-store-java.svg?style=for-the-badge
+[license-url]: https://github.com/claudiamunteanu/shows-ticket-store-java/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/claudiamunteanu
 [JavaScript.com]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
