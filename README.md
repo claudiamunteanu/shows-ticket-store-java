@@ -220,7 +220,7 @@ Project Link: [https://github.com/claudiamunteanu/shows-tickets-store-java](http
 [issues-shield]: https://img.shields.io/github/issues/claudiamunteanu/shows-ticket-store-java.svg?style=for-the-badge
 [issues-url]: https://github.com/claudiamunteanu/shows-ticket-store-java/issues
 [license-shield]: https://img.shields.io/github/license/claudiamunteanu/shows-ticket-store-java.svg?style=for-the-badge
-[license-url]: https://github.com/claudiamunteanu/shows-ticket-store-java/blob/master/LICENSE.txt
+[license-url]: https://github.com/claudiamunteanu/shows-ticket-store-java/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/claudiamunteanu
 [JavaScript.com]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
