@@ -124,7 +124,7 @@ To get a local copy up and running follow these simple steps.
 
 * Clone the repo
    ```sh
-   git clone https://github.com/claudiamunteanu/shows-tickets-store-java.git
+   git clone https://github.com/claudiamunteanu/shows-ticket-store-java.git
    ```
    
 ### Running
@@ -192,7 +192,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Munteanu Claudia-Maria - Linkedin: [claudiamunteanu][linkedin-url]
 
-Project Link: [https://github.com/claudiamunteanu/shows-tickets-store-java](https://github.com/claudiamunteanu/shows-tickets-store-java)
+Project Link: [https://github.com/claudiamunteanu/shows-ticket-store-java](https://github.com/claudiamunteanu/shows-ticket-store-java)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
